@@ -24,13 +24,13 @@ This notebook will analyze the top ten tech and healthcare stocks according to v
 
 ![Screen Shot 2021-11-11 at 2 47 37 PM](https://user-images.githubusercontent.com/66973223/141359797-1d246782-7d7e-4ddf-8072-9259442f0473.png)
 
-![Screen Shot 2021-11-11 at 2 47 46 PM](https://user-images.githubusercontent.com/66973223/141359817-f2c38cac-5e29-4d48-b77e-dc4874fe6e44.png)
-
-![Screen Shot 2021-11-11 at 2 47 54 PM](https://user-images.githubusercontent.com/66973223/141359839-6be734ad-800f-429e-a975-3a5f298cce88.png)
-
 ![Screen Shot 2021-11-11 at 2 58 49 PM](https://user-images.githubusercontent.com/66973223/141361055-68bb68cb-9413-499b-917f-eeb6293f369f.png)
 
+![Screen Shot 2021-11-11 at 2 47 46 PM](https://user-images.githubusercontent.com/66973223/141359817-f2c38cac-5e29-4d48-b77e-dc4874fe6e44.png)
+
 ![Screen Shot 2021-11-11 at 2 58 58 PM](https://user-images.githubusercontent.com/66973223/141361114-de5f955c-24f0-4393-8db5-3769c8f117c1.png)
+
+![Screen Shot 2021-11-11 at 2 47 54 PM](https://user-images.githubusercontent.com/66973223/141359839-6be734ad-800f-429e-a975-3a5f298cce88.png)
 
 ![Screen Shot 2021-11-11 at 2 59 06 PM](https://user-images.githubusercontent.com/66973223/141361139-291721ef-521d-4dd1-a6f6-145b5963f5ec.png)
 
