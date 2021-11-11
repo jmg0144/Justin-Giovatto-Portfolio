@@ -2,7 +2,7 @@
 
 ## Experienced Marketing and Project Management Professional, Recent Flatiron School Data Science Graduate.
 
-## Project 1 - Stock Market Data Analysis
+# Project 1 - Stock Market Data Analysis
 ## Business Objective
 A stock market investor is looking to invest in a portfolio consisting of three technology companies, three healthcare companies, as well as one cryptocurrency for the next six month period. The investor also would like to minimize risk in the protfolio.
 
@@ -88,27 +88,28 @@ SyriaTel, a telecommunications company, is interested in knowing the important f
 
 ## Data
 The dataset contains relevant customer account data including:
-  - The state the customer is from
+
+  - The state of the customer.
     
-  - The account length of the customer
+  - The account length of the customer.
     
-  - the customer's area code
+  - The customer's area code.
     
-  - Whether or not the customer has an international plan
+  - Whether or not the customer has an international plan.
     
-  - Whether or not the customer has a voicemail plan
+  - Whether or not the customer has a voicemail plan.
     
-  - The total day, evening, night, and international minutes of the customer
+  - The total day, evening, night, and international minutes of the customer.
     
-  - The total day, evening, night, and international calls of the customer
+  - The total day, evening, night, and international calls of the customer.
     
-  - The total day, evening, night, and international charge of the customer
+  - The total day, evening, night, and international charge of the customer.
     
-  - The total customer service calls of the customer
+  - The total customer service calls of the customer.
     
-  - Whether or not the customer was 'true' or 'false' churn (true churn meaning that they have left the company, this will be the primary focus of the models)
+  - Whether or not the customer was 'true' or 'false' churn (true churn meaning that they have left the company, this will be the primary focus of the models).
   
-  - The data contains no missing values
+  - The data contains no missing values.
 
 ![Screen Shot 2021-10-12 at 5 29 28 PM](https://user-images.githubusercontent.com/66973223/137032113-ee4ab177-ea09-490a-88b2-75942a2c066e.png)
 
