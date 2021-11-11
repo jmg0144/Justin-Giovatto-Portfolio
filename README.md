@@ -1,5 +1,6 @@
-# Stock Market Time Series Analysis
+# Justin Giovatto Portfolio
 Author: Justin Giovatto
+## Project 1 - Stock Market Data Analysis
 ## Business Problem
 A stock market investor is looking to invest in a portfolio consisting of three technology companies, three healthcare companies, as well as one cryptocurrency for the next six month period. The investor also would like to minimize risk in the protfolio. 
 ## Overview/Methods
@@ -47,7 +48,6 @@ The stock data used for this project is from the Yahoo Finance API. The top 10 s
 ## For More Information
 See the full analysis in the [Jupyter Notebook](https://github.com/jmg0144/Stock-Market-Analysis/blob/main/Stock-Market-Analysis.ipynb) 
 
-For additional information contact Justin Giovatto at justin.giovatto@gmail.com
 
 ## Repository Structure
 
