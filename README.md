@@ -1,6 +1,6 @@
 # Justin Giovatto Portfolio
 
-## Experienced Marketing and Project Management Professional, Recent Flatiron School Data Science Graduate.
+ - ## Experienced Marketing and Project Management Professional, Recent Flatiron School Data Science Graduate.
 
 # Project 1 - Stock Market Data Analysis
 ## Business Objective
