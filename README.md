@@ -1,7 +1,7 @@
 # Justin Giovatto Portfolio
-Author: Justin Giovatto
+
 ## Project 1 - Stock Market Data Analysis
-## Business Problem
+## Business Objective
 A stock market investor is looking to invest in a portfolio consisting of three technology companies, three healthcare companies, as well as one cryptocurrency for the next six month period. The investor also would like to minimize risk in the protfolio. 
 ## Overview/Methods
 This notebook will analyze the top ten tech and healthcare stocks according to volume traded as well the top five cryptocurrency stocks by volume traded. The stocks will then be analyzed according to past future returns dating back to January 2016. The stocks' volitility over that period as well as price to earnings ratios (P/E ratios) will also be taken into account for the tech and healthcare stocks in order to analyze potential risk. A sarima model and Facebook Prophet model will then be run on each of the stocks in order to predict future returns over the next six month period. Model results will then be compared and analyzed, and portfolio investment reccomendations will then be provided based on the analysis. 
