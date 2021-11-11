@@ -1,5 +1,7 @@
 # Justin Giovatto Portfolio
 
+## Experienced Marketing and Project Management Professional, Recent Flatiron School Data Science Graduate.
+
 ## Project 1 - Stock Market Data Analysis
 ## Business Objective
 A stock market investor is looking to invest in a portfolio consisting of three technology companies, three healthcare companies, as well as one cryptocurrency for the next six month period. The investor also would like to minimize risk in the protfolio.
