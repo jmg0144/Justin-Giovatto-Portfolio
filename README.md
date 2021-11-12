@@ -12,29 +12,38 @@ A stock market investor is looking to invest in a portfolio consisting of three 
 The stock data used for this project is from the Yahoo Finance API. The top 10 stocks with at least 5 years of trading data, according to volume traded in the technology and healthcare sectors will be analyzed. Also the top 5 cryptocurrency stocks with at least 5 years of trading data, according to volume traded will also be analyzed. The start date for the stocks is January 1st, 2016 and the end date is June 1st, 2021. The stocks will then be broken up into individual dataframes as well as combined into three seperate dataframes according to sector. The stocks are formated into daily data and provides the following features: "High", "Low", "Open", "Close", "Volume", and "Adj Close". An additional column for "Stock" (name), "Returns", and "Cumulative Returns" will also be added onto the data for analysis.
 
 ![Screen Shot 2021-09-14 at 2 15 01 PM](https://user-images.githubusercontent.com/66973223/133312926-7576720c-99a5-4fd4-b1bb-c2ea1f5eadd3.png)
+ - Apple appears to following a general upward trend which appears to be increasing since late 2019. Apple also appears to have a seasonal component with spikes during the early and late parts of the year.
 
 ![Screen Shot 2021-11-11 at 2 46 25 PM](https://user-images.githubusercontent.com/66973223/141359646-22c2aebc-a7ca-4bd6-971f-b6c40248d7aa.png)
+ - United Health appears to be autocorrelated up to about 6 lags.
 
 ![Screen Shot 2021-11-11 at 2 51 01 PM](https://user-images.githubusercontent.com/66973223/141360030-3e74a401-0b53-406f-8ca6-5f65525c2c35.png)
+ - Of the top three crypto stocks Dodgecoin looks to be the most volatile with high returns over 2.5 as well as many returns in the .5 to 1 range. Bitcoin and Ethereum look to have similar volatility though Bitcoin appears to be slightly more stable. Compared to the tech and tealthcare sectors, the cryptocurrencies are clearly the most volatile of the three with a much greater range of returns. 
 
 ![Screen Shot 2021-11-11 at 2 46 41 PM](https://user-images.githubusercontent.com/66973223/141359693-1d656e54-ac42-4593-bce9-11d11beff1f2.png)
+ - Microsoft appears to follow a fairly steady upward 6 month trend, while Apple follows a similar trend despite a slight dip during 2019 and 2020, before finally beginning to pulling ahead of Microsoft in 2021. Overall Google follows a flatter upward trend than the other two before beginning to slightly increase in 2021. All three stocks appear to be following an upward 6 month trend. 
 
 ![Screen Shot 2021-11-11 at 2 46 50 PM](https://user-images.githubusercontent.com/66973223/141359716-a41cefcc-8d70-4b5e-bfb3-58f3f9821e79.png)
+ - Overall United Health looks to have most steady increase in 6 month returns despite a slight dip in 2019. HCA seems to be the most volatile of the three, though it does appear to be sharply rising since late 2020. CVS looks to be experiencing a slow, flat downward trend over the past 5 years.
 
 ![Screen Shot 2021-11-11 at 2 46 58 PM](https://user-images.githubusercontent.com/66973223/141359746-0773cdae-bbfd-4a8c-8162-a4b66e1c9de5.png)
+ - Overall Ethereum seems to be the most volatile of the three crypto stocks wit a sharp increase in 6 month trend during mid 2017 to mid 2018 before sharply dropping again until mid 2019 where it remained flat until late 2020 where it has since dramatically risen to an almost 2000% cumulative return. Bitcoin and Dogecoin also remained fairly flat until mid 2021 where Dogecoin sharply rose to about 900% cumulative return, while Bitcoin also began to steadily increase. Overall this could indicate that Crypto stocks are experiencing a sharp rise in cumulative returns and will be interesting to see if it continues going forward.
 
 ## Overview/Methods
 This notebook will analyze the top ten tech and healthcare stocks according to volume traded as well the top five cryptocurrency stocks by volume traded. The stocks will then be analyzed according to past future returns dating back to January 2016. The stocks' volitility over that period will also be taken into account in order to analyze potential risk. A sarima model and Facebook Prophet model will then be run on each of the stocks in order to predict future returns over the next six month period. Model results will then be compared and analyzed, and portfolio investment reccomendations will then be provided based on the analysis.
 
 ![Screen Shot 2021-11-11 at 2 47 37 PM](https://user-images.githubusercontent.com/66973223/141359797-1d246782-7d7e-4ddf-8072-9259442f0473.png)
+ - According to the SARIMA model forecast, the top tech stock was Nvidia with a predicted 25.83% increase over the next 6 month period.
 
 ![Screen Shot 2021-11-11 at 2 58 49 PM](https://user-images.githubusercontent.com/66973223/141361055-68bb68cb-9413-499b-917f-eeb6293f369f.png)
 
 ![Screen Shot 2021-11-11 at 2 47 46 PM](https://user-images.githubusercontent.com/66973223/141359817-f2c38cac-5e29-4d48-b77e-dc4874fe6e44.png)
+ - The top healthcare stock according to the SARIMA model was Bio-Rad with a predicted increase of 5.17% over the next 6 month period.
 
 ![Screen Shot 2021-11-11 at 2 58 58 PM](https://user-images.githubusercontent.com/66973223/141361114-de5f955c-24f0-4393-8db5-3769c8f117c1.png)
 
 ![Screen Shot 2021-11-11 at 2 47 54 PM](https://user-images.githubusercontent.com/66973223/141359839-6be734ad-800f-429e-a975-3a5f298cce88.png)
+ - The top cryptocurrency according to the SARIMA model was Dogecoin with a predicted increase of 4,534.25% over the next 6 month period.
 
 ![Screen Shot 2021-11-11 at 2 59 06 PM](https://user-images.githubusercontent.com/66973223/141361139-291721ef-521d-4dd1-a6f6-145b5963f5ec.png)
 
@@ -177,7 +186,13 @@ This project analyzes a New Jersey Zillow dataset in order predict the top three
 ## Data
 The data used in this notebook will be Zillow home data ranging from April 1st, 1996 through April 1st, 2018. The data contains home value information from the United States consisting of 14,723 columns and 272 rows. For the purposes of this project the data will be filtered to only include New Jersey data. The New Jersey data will then be seperated out by individual county in order to model each county for forecasted ROI. The data will also be grouped by month for a mean value of homes for each month. The data will first need to be converted into datetime objects in order to prepare it for time series modeling. The data will also need to be converted from wide to long format in order to make it easier to work with and interperet.
 
-![Screen Shot 2021-09-14 at 1 57 56 PM](https://user-images.githubusercontent.com/66973223/133309726-69f00566-9c1c-49d7-9541-a7b432726595.png)
+![Screen Shot 2021-11-12 at 10 41 32 AM](https://user-images.githubusercontent.com/66973223/141494041-2209e7d3-eda6-4cde-8e84-e4e8135a7e77.png)
+
+![Screen Shot 2021-11-12 at 10 41 52 AM](https://user-images.githubusercontent.com/66973223/141494141-db2e6fa4-19e3-4011-82ec-431bc87d9cdb.png)
+
+![Screen Shot 2021-11-12 at 10 42 01 AM](https://user-images.githubusercontent.com/66973223/141494176-ec30639b-a36e-47f6-a808-ebe41c6cf2a8.png)
+
+![Screen Shot 2021-11-12 at 10 47 43 AM](https://user-images.githubusercontent.com/66973223/141494596-2d8e976b-9c86-4b59-b364-bd4899b6daf4.png)
 
 ## Methods
 * Data will be broken out by all 21 New Jersey counties in order to run SARIMA models on each.  
@@ -186,7 +201,13 @@ The data used in this notebook will be Zillow home data ranging from April 1st, 
 
 * Models will then be analyzed by county according to forecasted ROI.
 
-* Business recommendations will then be presented. 
+* Business recommendations will then be presented.
+
+![Screen Shot 2021-11-12 at 10 42 28 AM](https://user-images.githubusercontent.com/66973223/141494325-dac78df2-11c4-4bfe-9278-d44f3c42887f.png)
+
+![Screen Shot 2021-11-12 at 10 42 49 AM](https://user-images.githubusercontent.com/66973223/141494358-018cabab-8cc8-4d84-85e2-2947d944346b.png)
+
+![Screen Shot 2021-11-12 at 10 42 59 AM](https://user-images.githubusercontent.com/66973223/141494388-db07ae73-f633-434e-8b74-a7178ee26165.png)
 
 ## Results & Conclusions  
 
@@ -196,14 +217,12 @@ Based on the analysis, my main business recommendations are as follows:
 2. Strongly reccommend to invest in Salem County due to its lowest initial cost of just over 150,000 dollars along with the overall highest forecasted ROI of 121%, almost double the next highest forecast.
 3. Recommend avoiding past top ROI counties including Hudson, Cape May, and Monmouth County. Despite the large past ROI data from these counties they may have leveled off in terms of value and likely will not be good investment options going forward.
 
-![Screen Shot 2021-09-14 at 1 58 18 PM](https://user-images.githubusercontent.com/66973223/133309829-449eb921-e64e-4158-98db-228ddf68faf2.png)
+![Screen Shot 2021-11-12 at 10 48 31 AM](https://user-images.githubusercontent.com/66973223/141494726-0b5609ee-dc91-4dbd-a794-ad88f7527823.png)
 
-![Screen Shot 2021-09-14 at 1 58 40 PM](https://user-images.githubusercontent.com/66973223/133309857-a30a389a-7266-48b1-87a9-1ca06554f40d.png)
+![Screen Shot 2021-11-12 at 10 49 02 AM](https://user-images.githubusercontent.com/66973223/141494825-b49405f5-b47e-478f-a89b-06731b3e2c1a.png)
 
-![Screen Shot 2021-09-14 at 1 58 51 PM](https://user-images.githubusercontent.com/66973223/133309877-50f6eb67-e70e-45fe-9920-f208ff0e0667.png)
+![Screen Shot 2021-11-12 at 10 49 35 AM](https://user-images.githubusercontent.com/66973223/141494933-5d02d0ef-17cf-4851-a07e-dc05dfa57a7e.png)
 
-![Screen Shot 2021-09-14 at 1 59 03 PM](https://user-images.githubusercontent.com/66973223/133309908-5116369e-7346-40b6-bedf-04a2eddf143b.png)
- 
 ## Future Work
 1. Add another model type such as a RNN in order to compare its forecasts with the SARIMA models used here and check for similarities/differences between the models.
 2. Go deeper into the analysis by modeling the top counties by their cities in order to determine the top ROI cities within the counties thereby providing even more targeted recommendations with regard to where to invest.
