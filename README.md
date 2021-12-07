@@ -129,6 +129,7 @@ The dataset contains relevant customer account data including:
  - Internaional plan will need to be converted to a categorical feature.
 
 ![Screen Shot 2021-10-12 at 5 30 19 PM](https://user-images.githubusercontent.com/66973223/137032241-f790f235-7eec-41bb-9699-4ff578dd0a82.png)
+ - Customer service calls does not appear to be evenly distributed. This feature could be relevant at predicting churn as cutomers who are unhappy with their service would likely make more customer service calls.
 
 ## Methods
 * SyriaTel customer data will be used to create six different classification models to predict customer churn.
