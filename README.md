@@ -123,8 +123,10 @@ The dataset contains relevant customer account data including:
   - The data contains no missing values.
 
 ![Screen Shot 2021-10-12 at 5 29 28 PM](https://user-images.githubusercontent.com/66973223/137032113-ee4ab177-ea09-490a-88b2-75942a2c066e.png)
+ - Data contains significatly more 'false's than 'true's, this will need to be addressed later when building models in order to prevent class imbalance.
 
 ![Screen Shot 2021-10-12 at 5 30 06 PM](https://user-images.githubusercontent.com/66973223/137032197-4c16e344-a6ff-4009-b2af-c34d4b5820cc.png)
+ - Internaional plan will need to be converted to a categorical feature.
 
 ![Screen Shot 2021-10-12 at 5 30 19 PM](https://user-images.githubusercontent.com/66973223/137032241-f790f235-7eec-41bb-9699-4ff578dd0a82.png)
 
