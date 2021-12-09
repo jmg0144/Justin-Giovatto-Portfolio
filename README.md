@@ -196,8 +196,10 @@ The data used in this notebook will be Zillow home data ranging from April 1st, 
  - Looking at the decomposition chart, the data appears to follows a general upward  trend as expected. The data is also very seasonal, likely due to the seasonal nature of the real esate market in general.
 
 ![Screen Shot 2021-11-12 at 10 42 01 AM](https://user-images.githubusercontent.com/66973223/141494176-ec30639b-a36e-47f6-a808-ebe41c6cf2a8.png)
+ - Autocorrelation graph shows the data is correlated up to about 20 lags.
 
 ![Screen Shot 2021-11-12 at 10 47 43 AM](https://user-images.githubusercontent.com/66973223/141494596-2d8e976b-9c86-4b59-b364-bd4899b6daf4.png)
+ - Overall the top three ROI counties appear to be following a general upward trend aside from the downturn due to the 2008 economic recession. Hudson county appears to have been hit the hardest by the recession but has since sharly bounced back. Also Cape May County had the overall highest average value close to 700,000 before the recession and did not get hit as hard as Hudson County. Monmouth County started at the highest average value in 1996 but has since been somewhere in the middle of the other two counties. Going forward it will be interesting to see if Cape May will get back to its highest point of 700,000 and whether Hudson County values will continue to sharly rise or will begin to level off.  
 
 ## Methods
 * Data will be broken out by all 21 New Jersey counties in order to run SARIMA models on each.  
