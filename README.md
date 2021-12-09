@@ -190,8 +190,10 @@ This project analyzes a New Jersey Zillow dataset in order predict the top three
 The data used in this notebook will be Zillow home data ranging from April 1st, 1996 through April 1st, 2018. The data contains home value information from the United States consisting of 14,723 columns and 272 rows. For the purposes of this project the data will be filtered to only include New Jersey data. The New Jersey data will then be seperated out by individual county in order to model each county for forecasted ROI. The data will also be grouped by month for a mean value of homes for each month. The data will first need to be converted into datetime objects in order to prepare it for time series modeling. The data will also need to be converted from wide to long format in order to make it easier to work with and interperet.
 
 ![Screen Shot 2021-11-12 at 10 41 32 AM](https://user-images.githubusercontent.com/66973223/141494041-2209e7d3-eda6-4cde-8e84-e4e8135a7e77.png)
+ - Overall New Jersey home values appear to have sharply increased from 1996 through around 2006 before significantly dropping in value from 2008 to around 2012. This is likely due to the housing crisis and recession starting in 2008. Since around 2012 home values appear to be steadily increasing across the state as the economy began to steadily improve during this time period. Overall the data does not appear to be stationary as it follows a general upward trend.
 
 ![Screen Shot 2021-11-12 at 10 41 52 AM](https://user-images.githubusercontent.com/66973223/141494141-db2e6fa4-19e3-4011-82ec-431bc87d9cdb.png)
+ - Looking at the decomposition chart, the data appears to follows a general upward  trend as expected. The data is also very seasonal, likely due to the seasonal nature of the real esate market in general.
 
 ![Screen Shot 2021-11-12 at 10 42 01 AM](https://user-images.githubusercontent.com/66973223/141494176-ec30639b-a36e-47f6-a808-ebe41c6cf2a8.png)
 
