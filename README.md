@@ -294,11 +294,13 @@ Data from the King County house sales dataset contains the following information
 * sqft_lot15 - square footage of the land lots of the nearest 15 neighbors
 
 ![Screen Shot 2021-11-11 at 10 00 12 AM](https://user-images.githubusercontent.com/66973223/141325768-e5559cdd-e573-4381-9f1c-5f25c6dbbe8d.png)
+ - The data is not evenly distributed for several columns. Will analyze this further and need to address later on for increased model accuracy. 
 
 ![Screen Shot 2021-11-11 at 10 18 28 AM](https://user-images.githubusercontent.com/66973223/141325822-7a2c8567-eeda-457c-84be-194286ede13e.png)
+ - Several features such as sqft_lot and sqft_lot15 are closely related to each other and will need to be seperated when building models in order to prevent multicollinearity.
 
 ![Screen Shot 2021-11-11 at 10 00 24 AM](https://user-images.githubusercontent.com/66973223/141325861-50c19aca-5e95-4270-ae8d-46d6cae85c00.png)
-
+ - Price contains outliers and is skewed to the right. Will address this by removing outliers.
 
 ## Methods
 Using columns from the data provided I will build four unique linear models. I will then split the data into training and testing data. The models will be trained using the training data and then evaluated on the testing data to determine their accuracy. The accuracy of these models will be determined mainly by r-squared, mean absoluate error, mean squared error, and root mean squared error. After determining the accuracy of these model I will then evaluate the coefficients in order to determine which features are most important in determining true home value.
