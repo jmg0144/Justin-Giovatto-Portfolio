@@ -306,8 +306,10 @@ Data from the King County house sales dataset contains the following information
 Using columns from the data provided I will build four unique linear models. I will then split the data into training and testing data. The models will be trained using the training data and then evaluated on the testing data to determine their accuracy. The accuracy of these models will be determined mainly by r-squared, mean absoluate error, mean squared error, and root mean squared error. After determining the accuracy of these model I will then evaluate the coefficients in order to determine which features are most important in determining true home value.
 
 ![Screen Shot 2021-11-11 at 10 00 47 AM](https://user-images.githubusercontent.com/66973223/141325939-00d9b756-20df-4752-9ed7-c95a400aa9a7.png)
+ - According to Model A the top feature for determining price is square foot living, followed by grade and year built.
 
 ![Screen Shot 2021-11-11 at 10 39 56 AM](https://user-images.githubusercontent.com/66973223/141326061-a6f9691f-7c9d-4e3a-b747-117bf2e3ae35.png)
+ - The actual vs. predicted chart shows that Model A does not appear to follow a strong linear pattern.
 
 ![Screen Shot 2021-11-11 at 10 01 21 AM](https://user-images.githubusercontent.com/66973223/141326213-e22d39fb-d38a-4ec7-9973-c7f83b3090e7.png)
 
