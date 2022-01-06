@@ -340,16 +340,30 @@ Aside from zip codes; Square Foot Living, Grade, and Year Built all appear in th
 According to the models we can infer that home size, location, age, and 'grade' are the most important features in accurately predicting home value for King County.
 
 ![Screen Shot 2021-11-11 at 10 45 52 AM](https://user-images.githubusercontent.com/66973223/141327441-cbb71254-eefb-48dd-8f2d-6ce1535fe720.png)
+ - Models B and C both feature the highest R-Squared at .744 each. While Model A Features the lowest R-Squared at .623. Model D, the most accurate model in terms of skew and kurotsis comes in at .655.
 
 ![Screen Shot 2021-11-11 at 10 46 02 AM](https://user-images.githubusercontent.com/66973223/141327529-b6b306b2-4386-4739-91e1-6c355f036de5.png)
+ - Overall the best MAE score was Model C, which on average predicts home values within 83,185 dollars of the actual home value. While the worst performing model according to MAE was model A, which on average predicts home values within 145,718 dollars of the actual home value. 
 
 ![Screen Shot 2021-11-11 at 10 46 18 AM](https://user-images.githubusercontent.com/66973223/141327580-5fa81ce5-793c-4c7c-bbb1-f8387b6f4125.png)
+ - According to the graph, as sqaure foot living increases the price of the home also tends to increase.
+ 
+ - Square Foot Living was the top feature in both models A and C.
 
 ![Screen Shot 2021-11-11 at 10 46 28 AM](https://user-images.githubusercontent.com/66973223/141327610-685ba56f-fee2-4c7d-83db-02bc07e99197.png)
+ - According to the graph, as the 'grade' of the home increases the price of the home also tends to increase.
+ 
+ - Grade was the top feature of Model D as well as the second most important feature for Model A.
 
 ![Screen Shot 2021-11-11 at 10 46 37 AM](https://user-images.githubusercontent.com/66973223/141327649-cb01690e-1de0-4a11-a6bb-ba229cad8076.png)
+ - According to the graph, as the distance from Seattle decreases the price of the home tends to generally increase.
+ 
+ - Distance from Seattle was the second most important feature for Model D.
 
 ![Screen Shot 2021-11-11 at 10 46 46 AM](https://user-images.githubusercontent.com/66973223/141327678-95a29b4a-59a4-4582-b271-9fa5ac64e70d.png)
+- According to the graph, as the year the home was built increases the price of the home also tends to generally increase.
+
+- Year Built was the third most important feature for both Models A and D.
 
 ## For More Information
 See the full analysis in the [Jupyter Notebook](https://github.com/jmg0144/home-sales-analysis/blob/main/home-sales-analysis.ipynb) 
