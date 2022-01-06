@@ -312,8 +312,10 @@ Using columns from the data provided I will build four unique linear models. I w
  - The actual vs. predicted chart shows that Model A does not appear to follow a strong linear pattern.
 
 ![Screen Shot 2021-11-11 at 10 01 21 AM](https://user-images.githubusercontent.com/66973223/141326213-e22d39fb-d38a-4ec7-9973-c7f83b3090e7.png)
-
+ - According to Model B the top ten features for determining price are all zip codes.
+ 
 ![Screen Shot 2021-11-11 at 10 41 41 AM](https://user-images.githubusercontent.com/66973223/141326319-a8bbb5dd-fb0a-4d7a-b57c-ab02a8cacd71.png)
+- Similar to Model A, Model B also does not appear to follow a strong linear pattern. The next model will remove outliers from the data to see if this improves model performance. 
 
 ![Screen Shot 2021-11-11 at 10 43 01 AM](https://user-images.githubusercontent.com/66973223/141326600-1d716403-525c-43fa-805f-e1264a59f118.png)
 
