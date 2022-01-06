@@ -318,12 +318,16 @@ Using columns from the data provided I will build four unique linear models. I w
 - Similar to Model A, Model B also does not appear to follow a strong linear pattern. The next model will remove outliers from the data to see if this improves model performance. 
 
 ![Screen Shot 2021-11-11 at 10 43 01 AM](https://user-images.githubusercontent.com/66973223/141326600-1d716403-525c-43fa-805f-e1264a59f118.png)
-
+ - The most important feature according to Model C is square foot living followed by zip codes. 
+ 
 ![Screen Shot 2021-11-11 at 10 43 14 AM](https://user-images.githubusercontent.com/66973223/141326646-e41f727f-ae2a-4343-abe5-1937d7d32420.png)
-
+ - Model C also follows a somewhat better linear pattern than both Model's A and B.
+ 
 ![Screen Shot 2021-11-11 at 10 43 27 AM](https://user-images.githubusercontent.com/66973223/141326678-ca05176d-db42-468d-8a13-a8de352a0cc5.png)
-
+ - According to Model D the most important feature for predicting home price is Grade, followed by Distance from Seattle and Year Built.
+ 
 ![Screen Shot 2021-11-11 at 10 43 37 AM](https://user-images.githubusercontent.com/66973223/141326707-ff29c570-0257-4c06-ab7e-20135fcd604d.png)
+ - Model D also follows a somewhat better linear pattern than the earlier models.
 
 ## Results & Conclusions  
 
