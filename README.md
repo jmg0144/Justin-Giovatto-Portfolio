@@ -355,12 +355,12 @@ According to the models we can infer that home size, location, age, and 'grade' 
  
  - Grade was the top feature of Model D as well as the second most important feature for Model A.
 
-![Screen Shot 2021-11-11 at 10 46 37 AM](https://user-images.githubusercontent.com/66973223/141327649-cb01690e-1de0-4a11-a6bb-ba229cad8076.png)
+![Screen Shot 2022-01-07 at 11 24 23 AM](https://user-images.githubusercontent.com/66973223/148574491-e006b64e-5502-4f83-b439-1d85de56d7ee.png)
  - According to the graph, as the distance from Seattle decreases the price of the home tends to generally increase.
  
  - Distance from Seattle was the second most important feature for Model D.
 
-![Screen Shot 2021-11-11 at 10 46 46 AM](https://user-images.githubusercontent.com/66973223/141327678-95a29b4a-59a4-4582-b271-9fa5ac64e70d.png)
+![Screen Shot 2022-01-07 at 11 24 45 AM](https://user-images.githubusercontent.com/66973223/148574532-74a8c28b-e056-4867-b2c5-caa9ab46b0ed.png)
 - According to the graph, as the year the home was built increases the price of the home also tends to generally increase.
 
 - Year Built was the third most important feature for both Models A and D.
