@@ -345,12 +345,12 @@ According to the models we can infer that home size, location, age, and 'grade' 
 ![Screen Shot 2021-11-11 at 10 46 02 AM](https://user-images.githubusercontent.com/66973223/141327529-b6b306b2-4386-4739-91e1-6c355f036de5.png)
  - Overall the best MAE score was Model C, which on average predicts home values within 83,185 dollars of the actual home value. While the worst performing model according to MAE was model A, which on average predicts home values within 145,718 dollars of the actual home value. 
 
-![Screen Shot 2021-11-11 at 10 46 18 AM](https://user-images.githubusercontent.com/66973223/141327580-5fa81ce5-793c-4c7c-bbb1-f8387b6f4125.png)
+![Screen Shot 2022-01-07 at 11 23 52 AM](https://user-images.githubusercontent.com/66973223/148574279-3e236df9-b0ef-4c9e-bd77-49faccadc9cc.png)
  - According to the graph, as sqaure foot living increases the price of the home also tends to increase.
  
  - Square Foot Living was the top feature in both models A and C.
 
-![Screen Shot 2021-11-11 at 10 46 28 AM](https://user-images.githubusercontent.com/66973223/141327610-685ba56f-fee2-4c7d-83db-02bc07e99197.png)
+![Screen Shot 2022-01-07 at 11 24 08 AM](https://user-images.githubusercontent.com/66973223/148574391-43efce99-673b-442d-a51f-c82f4f998cd4.png)
  - According to the graph, as the 'grade' of the home increases the price of the home also tends to increase.
  
  - Grade was the top feature of Model D as well as the second most important feature for Model A.
